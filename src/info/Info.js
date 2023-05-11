@@ -6,17 +6,16 @@ import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
 
 
-
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
 
 export const info = {
     firstName: "Kevin",
     lastName: "Tran",
-    initials: "kT", 
+    initials: "kt", 
     position: "a Future Front End Developer",
-    selfPortrait: self, 
-    gradient: `-webkit-linear-gradient(135deg, ${colors})`,
+    selfPortrait: self,
+    gradient: `-webkit-linear-gradient(135deg, ${colors})`, 
     baseColor: colors[0],
     miniBio: [ 
         {
@@ -37,48 +36,34 @@ export const info = {
         }
     ],
     socials: [
-        // {
-        //     link: "https://facebook.com",
-        //     icon: 'fa fa-facebook',
-        //     label: 'facebook'
-        // },
-        // {
-        //     link: "https://instagram.com",
-        //     icon: 'fa fa-instagram',
-        //     label: 'instagram'
-        // },
+   
         {
             link: "https://github.com/kevintran87",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://www.linkedin.com/in/kevin-tran-b7a96194/",
+            link: "https://www.linkedin.com/in/kevin-tran-b7a96194",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
-        // {
-        //     link: "https://twitter.com",
-        //     icon: "fa fa-twitter",
-        //     label: 'twitter'
-        // }
-
+   
     ],
-    bio: "Hello! I'm Kevin. I was in medical sales for the past 10 years and am making a transition into the tech field. I enjoy building all different types of websites to help you build and grow your business. You should hire me!",
+    bio: "Hello! I'm Kevin. I was in medical sales for the last 10 years and am now making a transition into tech. I enjoy building websites to help maintain or expand and grow your business. You should hire me!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'tailwind', 'github', 'bootstrap', 'html5', 'css3', 'nodejs'],
-            exposedTo: ['c++', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'react', 'nodejs', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
+            exposedTo: ['mysql', 'python', 'adobe illustrator']
         }
     ,
     hobbies: [
         {
-            label: 'traveling',
-            emoji: '🛩'
-        },
-        {
             label: 'sports',
             emoji: '🏈'
+        },
+        {
+            label: 'traveling',
+            emoji: '🛩'
         },
         {
             label: 'movies',
@@ -93,8 +78,8 @@ export const info = {
     portfolio: [ 
         {
             title: "Your BF",
-            live: "https://the-best-grouppe.github.io/Your-fridge-and-your-bar", 
-            source: "https://github.com/The-Best-Grouppe/Your-fridge-and-your-bar", 
+            live: "https://the-best-grouppe.github.io/Your-fridge-and-your-bar/", 
+            source: "https://github.com/The-Best-Grouppe/Your-fridge-and-your-bar",
             image: mock1
         },
         {
@@ -116,9 +101,9 @@ export const info = {
             image: mock4
         },
         {
-            title: "Javascript Quiz",
-            live: "https://kevintran87.github.io/mod4/",
-            source: "https://github.com/kevintran87/mod4",
+            title: "Purrfect Pals",
+            live: "https://cryptic-retreat-89387.herokuapp.com/",
+            source: "https://github.com/talexander91/Purrfect_Pals",
             image: mock5
         }
     ]
